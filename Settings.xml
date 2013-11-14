@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Settings>
+    <useCOM>true</useCOM>
+    <logStartWithBoot>false</logStartWithBoot>
+    <logFan0Speed>true</logFan0Speed>
+    <logFan1Speed>true</logFan1Speed>
+    <logDigitalBrightnessLevel>true</logDigitalBrightnessLevel>
+    <logConnectStatus>true</logConnectStatus>
+    <logBacklightSatus>true</logBacklightSatus>
+    <logInputSource>true</logInputSource>
+    <logMuteStatus>true</logMuteStatus>
+    <logContrast>true</logContrast>
+    <logPhase>true</logPhase>
+    <logColorTemperature>true</logColorTemperature>
+    <logBrightness>true</logBrightness>
+    <logVolume>true</logVolume>
+    <baudRate>115200</baudRate>
+    <COM>COM15</COM>
+    <dataBit>8</dataBit>
+    <localIP>192.168.1.128</localIP>
+    <logFolder>E:\Terence\NetBeanProjects\CHILIN_MD\MultipleDisplay\Log</logFolder>
+    <parity>EVEN</parity>
+    <port>23</port>
+    <stopBit>1</stopBit>
+    <updateFrequency>5</updateFrequency>
+</Settings>
