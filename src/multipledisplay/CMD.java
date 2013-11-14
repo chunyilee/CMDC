@@ -33,7 +33,7 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 import clt.api.Ncmd;
-
+import clt.api.Display.DisplayType;
 /**
  *
  * @author A000847
