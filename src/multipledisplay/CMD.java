@@ -34,6 +34,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 import clt.api.Ncmd;
 import clt.api.Display.DisplayType;
+
 /**
  *
  * @author A000847
@@ -3306,7 +3307,7 @@ public class CMD extends javax.swing.JFrame {
             if (file.exists()) {
                 displayItems = Displays.loadXML(Functions.displayXml);
             } else {
-                 
+
                 displayItems = new Displays();
                 displayItems.saveXML(Functions.displayXml);
             }
@@ -3323,7 +3324,6 @@ public class CMD extends javax.swing.JFrame {
             }
 
             this.tmrLoggingMin = Integer.parseInt(set.getUpdateFrequency());
-
 
         } catch (Exception exp) {
             Functions.showMsgDialog(exp.getMessage());
@@ -4206,7 +4206,6 @@ public class CMD extends javax.swing.JFrame {
             //set program form in the middle of the Screen
             this.setLocationRelativeTo(null);
 
-
             jcobTimeMode.setSelectedIndex(0);
 
             //2013/10/17 計劃要寫每個table 的 refresh 功能, 目前先建好按鈕,及傳送command的函式
@@ -4259,7 +4258,7 @@ public class CMD extends javax.swing.JFrame {
             }
 
             connectDisplay();
-            
+
             //間隔一段時儲存displsys 資料
             this.tmrIDListCheck = new Timer();
             this.runIDListCheckTimer();
@@ -4349,7 +4348,6 @@ public class CMD extends javax.swing.JFrame {
 
         jsliderGamma.setEnabled(value != 0);
         jbtnGamma.setEnabled(value != 0);
-
 
         jsliderRGain.setEnabled(value == 0);
         jsliderGGain.setEnabled(value == 0);
@@ -4632,7 +4630,6 @@ public class CMD extends javax.swing.JFrame {
             disconnectDisplay();
             Thread.sleep(1000);
 
-
         } catch (InterruptedException ex) {
             Logger.getLogger(CMD.class
                     .getName()).log(Level.SEVERE, null, ex);
@@ -4719,7 +4716,6 @@ public class CMD extends javax.swing.JFrame {
                 if ("Metal".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
-
 
                 }
             }
